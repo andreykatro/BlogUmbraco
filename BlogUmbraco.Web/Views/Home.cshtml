@@ -3,17 +3,3 @@
 @{
 	Layout = "Master.cshtml";
 }
-
-<div style="color: @Model.ColorName">
-    <h1>@Model.Title</h1>
-
-    @Model.MainContent
-
-    Your favorite color is @Model.ColorName.
-
-</div>
-
-@if (Model.ShowImage)
-{
-    <img style="width:100%" src="media/terhzhmw/pauline-loroy-u3af7hgusrk-unsplash.jpg" alt="Dog picture" />
-}

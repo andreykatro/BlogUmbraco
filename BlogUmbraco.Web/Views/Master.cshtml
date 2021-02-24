@@ -15,7 +15,12 @@
     <!--<link rel="stylesheet" type="text/css" href="/css/style.css">-->
 </head>
 <body>
+    @Html.Partial("~/Views/Partials/_Navigation.cshtml")
+
     @RenderBody()
+
+    @Html.Partial("~/Views/Partials/_Footer.cshtml")
+    
     <!--scripts here-->
     <!--<script type="text/javascript" src="/css/script.js"></script>-->
 </body>
