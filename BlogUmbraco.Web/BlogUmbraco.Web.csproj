@@ -323,6 +323,8 @@
     <Content Include="Views\Home.cshtml" />
     <Content Include="Views\Partials\_Footer.cshtml" />
     <Content Include="Views\Partials\_Navigation.cshtml" />
+    <Content Include="Views\Contact.cshtml" />
+    <Content Include="Views\Content.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
